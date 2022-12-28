@@ -17,5 +17,5 @@ public class AccountOpenedEvent extends BaseEvent {
     private String accountHolder;
     private AccountType accountType;
     private Date createdDate;
-    private double openingBalence;
+    private double openingBalance;
 }
