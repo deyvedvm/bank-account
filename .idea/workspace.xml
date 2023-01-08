@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f314462d-4f18-4b63-9b21-4d8dcec99a00" name="Changes" comment="Section 3: Messages">
-      <change afterPath="$PROJECT_DIR$/account.cmd/src/main/java/dev/deyve/account/cmd/infrastruture/AccountCommandDispatcher.java" afterDir="false" />
+    <list default="true" id="f314462d-4f18-4b63-9b21-4d8dcec99a00" name="Changes" comment="Section 4: Command Dispatching">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.cmd/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account.cmd/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.common/src/main/java/dev/deyve/account/common/events/AccountOpenedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/account.common/src/main/java/dev/deyve/account/common/events/AccountOpenedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.query/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account.query/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.query/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account.query/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +109,7 @@
       <workItem from="1667347897860" duration="214000" />
       <workItem from="1667348205293" duration="2999000" />
       <workItem from="1668204691732" duration="365000" />
-      <workItem from="1672066066263" duration="16126000" />
+      <workItem from="1672066066263" duration="17867000" />
     </task>
     <task id="LOCAL-00001" summary="Section 2: Setup &amp; Structure">
       <created>1672085062888</created>
@@ -130,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672174481232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Section 4: Command Dispatching">
+      <created>1672268477016</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672268477016</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 2: Setup &amp; Structure" />
     <MESSAGE value="Section 3: Messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 3: Messages" />
+    <MESSAGE value="Section 4: Command Dispatching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 4: Command Dispatching" />
   </component>
 </project>
