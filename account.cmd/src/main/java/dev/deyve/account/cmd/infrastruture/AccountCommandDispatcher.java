@@ -1,7 +1,7 @@
 package dev.deyve.account.cmd.infrastruture;
 
 import dev.deyve.cqrs.core.commands.BaseCommand;
-import dev.deyve.cqrs.core.commands.CommandDispatcher;
+import dev.deyve.cqrs.core.infrastructure.CommandDispatcher;
 import dev.deyve.cqrs.core.commands.CommandHandlerMethod;
 import org.springframework.stereotype.Service;
 
