@@ -2,7 +2,6 @@ package dev.deyve.account.cmd;
 
 import dev.deyve.account.cmd.api.commands.*;
 import dev.deyve.cqrs.core.infrastructure.CommandDispatcher;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,11 +10,14 @@ import javax.annotation.PostConstruct;
 @SpringBootApplication
 public class CommandApplication {
 
-    @Autowired
-    private CommandDispatcher commandDispatcher;
+    private final CommandDispatcher commandDispatcher;
 
-    @Autowired
-    private CommandHandler commandHandler;
+    private final CommandHandler commandHandler;
+
+    public CommandApplication(CommandDispatcher commandDispatcher, CommandHandler commandHandler) {
+        this.commandDispatcher = commandDispatcher;
+        this.commandHandler = commandHandler;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(CommandApplication.class, args);

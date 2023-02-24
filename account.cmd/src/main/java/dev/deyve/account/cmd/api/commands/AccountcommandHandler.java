@@ -2,14 +2,16 @@ package dev.deyve.account.cmd.api.commands;
 
 import dev.deyve.account.cmd.domain.AccountAggregate;
 import dev.deyve.cqrs.core.handlers.EventSourcingHandler;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class AccountcommandHandler implements CommandHandler {
 
-    @Autowired
-    private EventSourcingHandler<AccountAggregate> eventSourcingHandler;
+    private final EventSourcingHandler<AccountAggregate> eventSourcingHandler;
+
+    public AccountcommandHandler(EventSourcingHandler<AccountAggregate> eventSourcingHandler) {
+        this.eventSourcingHandler = eventSourcingHandler;
+    }
 
     @Override
     public void handle(OpenAccountCommand command) {
