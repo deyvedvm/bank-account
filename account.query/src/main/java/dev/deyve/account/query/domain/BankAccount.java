@@ -1,6 +1,6 @@
 package dev.deyve.account.query.domain;
 
-import dev.deyve.account.common.dtos.AccountType;
+import dev.deyve.account.common.dto.AccountType;
 import dev.deyve.cqrs.core.domain.BaseEntity;
 import lombok.*;
 import org.hibernate.Hibernate;
